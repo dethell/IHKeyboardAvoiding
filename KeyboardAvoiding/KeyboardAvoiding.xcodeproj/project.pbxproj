@@ -20,6 +20,8 @@
 		DE8305E71F26A9E70091F5DB /* KeyboardAvoidingFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = DE8305D71F26A9E70091F5DB /* KeyboardAvoidingFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE8305EA1F26A9E70091F5DB /* KeyboardAvoiding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8305D51F26A9E70091F5DB /* KeyboardAvoiding.framework */; };
 		DE8305EB1F26A9E70091F5DB /* KeyboardAvoiding.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE8305D51F26A9E70091F5DB /* KeyboardAvoiding.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DE8305F31F26AB060091F5DB /* KeyboardAvoiding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C572D6C1E08C94E00BCBD99 /* KeyboardAvoiding.swift */; };
+		DE8305F41F26AB090091F5DB /* KeyboardDismissingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C572D6E1E08CC6F00BCBD99 /* KeyboardDismissingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -331,6 +333,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE8305F31F26AB060091F5DB /* KeyboardAvoiding.swift in Sources */,
+				DE8305F41F26AB090091F5DB /* KeyboardDismissingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +482,7 @@
 		4C572D691E08C79F00BCBD99 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 2E23KCX8SU;
@@ -496,6 +501,7 @@
 		4C572D6A1E08C79F00BCBD99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 2E23KCX8SU;
