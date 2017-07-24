@@ -15,11 +15,54 @@
 		4C572D641E08C79F00BCBD99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C572D621E08C79F00BCBD99 /* LaunchScreen.storyboard */; };
 		4C572D6D1E08C94E00BCBD99 /* KeyboardAvoiding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C572D6C1E08C94E00BCBD99 /* KeyboardAvoiding.swift */; };
 		4C572D6F1E08CC6F00BCBD99 /* KeyboardDismissingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C572D6E1E08CC6F00BCBD99 /* KeyboardDismissingView.swift */; };
+		DE8305DE1F26A9E70091F5DB /* KeyboardAvoiding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8305D51F26A9E70091F5DB /* KeyboardAvoiding.framework */; };
+		DE8305E51F26A9E70091F5DB /* KeyboardAvoidingFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8305E41F26A9E70091F5DB /* KeyboardAvoidingFrameworkTests.swift */; };
+		DE8305E71F26A9E70091F5DB /* KeyboardAvoidingFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = DE8305D71F26A9E70091F5DB /* KeyboardAvoidingFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE8305EA1F26A9E70091F5DB /* KeyboardAvoiding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8305D51F26A9E70091F5DB /* KeyboardAvoiding.framework */; };
+		DE8305EB1F26A9E70091F5DB /* KeyboardAvoiding.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE8305D51F26A9E70091F5DB /* KeyboardAvoiding.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE8305DF1F26A9E70091F5DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C572D4E1E08C79E00BCBD99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE8305D41F26A9E70091F5DB;
+			remoteInfo = KeyboardAvoidingFramework;
+		};
+		DE8305E11F26A9E70091F5DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C572D4E1E08C79E00BCBD99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C572D551E08C79F00BCBD99;
+			remoteInfo = KeyboardAvoiding;
+		};
+		DE8305E81F26A9E70091F5DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C572D4E1E08C79E00BCBD99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE8305D41F26A9E70091F5DB;
+			remoteInfo = KeyboardAvoidingFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DE8305EF1F26A9E70091F5DB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DE8305EB1F26A9E70091F5DB /* KeyboardAvoiding.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4C291DC31E08E01C00507A53 /* IHKeyboardAvoiding.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IHKeyboardAvoiding.podspec; path = ../../IHKeyboardAvoiding.podspec; sourceTree = "<group>"; };
-		4C572D561E08C79F00BCBD99 /* KeyboardAvoiding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardAvoiding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C572D561E08C79F00BCBD99 /* KeyboardAvoidingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardAvoidingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C572D591E08C79F00BCBD99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C572D5B1E08C79F00BCBD99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4C572D5E1E08C79F00BCBD99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -28,6 +71,12 @@
 		4C572D651E08C79F00BCBD99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C572D6C1E08C94E00BCBD99 /* KeyboardAvoiding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardAvoiding.swift; sourceTree = "<group>"; };
 		4C572D6E1E08CC6F00BCBD99 /* KeyboardDismissingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardDismissingView.swift; sourceTree = "<group>"; };
+		DE8305D51F26A9E70091F5DB /* KeyboardAvoiding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeyboardAvoiding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8305D71F26A9E70091F5DB /* KeyboardAvoidingFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardAvoidingFramework.h; sourceTree = "<group>"; };
+		DE8305D81F26A9E70091F5DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8305DD1F26A9E70091F5DB /* KeyboardAvoidingFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardAvoidingFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8305E41F26A9E70091F5DB /* KeyboardAvoidingFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAvoidingFrameworkTests.swift; sourceTree = "<group>"; };
+		DE8305E61F26A9E70091F5DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +84,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE8305EA1F26A9E70091F5DB /* KeyboardAvoiding.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8305D11F26A9E70091F5DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8305DA1F26A9E70091F5DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8305DE1F26A9E70091F5DB /* KeyboardAvoiding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				4C572D581E08C79F00BCBD99 /* KeyboardAvoiding */,
+				DE8305D61F26A9E70091F5DB /* KeyboardAvoidingFramework */,
+				DE8305E31F26A9E70091F5DB /* KeyboardAvoidingFrameworkTests */,
 				4C572D571E08C79F00BCBD99 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,7 +119,9 @@
 		4C572D571E08C79F00BCBD99 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4C572D561E08C79F00BCBD99 /* KeyboardAvoiding.app */,
+				4C572D561E08C79F00BCBD99 /* KeyboardAvoidingApp.app */,
+				DE8305D51F26A9E70091F5DB /* KeyboardAvoiding.framework */,
+				DE8305DD1F26A9E70091F5DB /* KeyboardAvoidingFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,25 +151,93 @@
 			path = ../../Sources;
 			sourceTree = "<group>";
 		};
+		DE8305D61F26A9E70091F5DB /* KeyboardAvoidingFramework */ = {
+			isa = PBXGroup;
+			children = (
+				DE8305D71F26A9E70091F5DB /* KeyboardAvoidingFramework.h */,
+				DE8305D81F26A9E70091F5DB /* Info.plist */,
+			);
+			path = KeyboardAvoidingFramework;
+			sourceTree = "<group>";
+		};
+		DE8305E31F26A9E70091F5DB /* KeyboardAvoidingFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE8305E41F26A9E70091F5DB /* KeyboardAvoidingFrameworkTests.swift */,
+				DE8305E61F26A9E70091F5DB /* Info.plist */,
+			);
+			path = KeyboardAvoidingFrameworkTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		DE8305D21F26A9E70091F5DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8305E71F26A9E70091F5DB /* KeyboardAvoidingFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		4C572D551E08C79F00BCBD99 /* KeyboardAvoiding */ = {
+		4C572D551E08C79F00BCBD99 /* KeyboardAvoidingApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C572D681E08C79F00BCBD99 /* Build configuration list for PBXNativeTarget "KeyboardAvoiding" */;
+			buildConfigurationList = 4C572D681E08C79F00BCBD99 /* Build configuration list for PBXNativeTarget "KeyboardAvoidingApp" */;
 			buildPhases = (
 				4C572D521E08C79F00BCBD99 /* Sources */,
 				4C572D531E08C79F00BCBD99 /* Frameworks */,
 				4C572D541E08C79F00BCBD99 /* Resources */,
+				DE8305EF1F26A9E70091F5DB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE8305E91F26A9E70091F5DB /* PBXTargetDependency */,
+			);
+			name = KeyboardAvoidingApp;
+			productName = KeyboardAvoiding;
+			productReference = 4C572D561E08C79F00BCBD99 /* KeyboardAvoidingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE8305D41F26A9E70091F5DB /* KeyboardAvoiding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8305EC1F26A9E70091F5DB /* Build configuration list for PBXNativeTarget "KeyboardAvoiding" */;
+			buildPhases = (
+				DE8305D01F26A9E70091F5DB /* Sources */,
+				DE8305D11F26A9E70091F5DB /* Frameworks */,
+				DE8305D21F26A9E70091F5DB /* Headers */,
+				DE8305D31F26A9E70091F5DB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = KeyboardAvoiding;
-			productName = KeyboardAvoiding;
-			productReference = 4C572D561E08C79F00BCBD99 /* KeyboardAvoiding.app */;
-			productType = "com.apple.product-type.application";
+			productName = KeyboardAvoidingFramework;
+			productReference = DE8305D51F26A9E70091F5DB /* KeyboardAvoiding.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE8305DC1F26A9E70091F5DB /* KeyboardAvoidingFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8305F01F26A9E70091F5DB /* Build configuration list for PBXNativeTarget "KeyboardAvoidingFrameworkTests" */;
+			buildPhases = (
+				DE8305D91F26A9E70091F5DB /* Sources */,
+				DE8305DA1F26A9E70091F5DB /* Frameworks */,
+				DE8305DB1F26A9E70091F5DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE8305E01F26A9E70091F5DB /* PBXTargetDependency */,
+				DE8305E21F26A9E70091F5DB /* PBXTargetDependency */,
+			);
+			name = KeyboardAvoidingFrameworkTests;
+			productName = KeyboardAvoidingFrameworkTests;
+			productReference = DE8305DD1F26A9E70091F5DB /* KeyboardAvoidingFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -108,7 +245,7 @@
 		4C572D4E1E08C79E00BCBD99 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0810;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = IdleHandsApps;
 				TargetAttributes = {
@@ -116,6 +253,17 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 2E23KCX8SU;
 						ProvisioningStyle = Automatic;
+					};
+					DE8305D41F26A9E70091F5DB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2E23KCX8SU;
+						ProvisioningStyle = Automatic;
+					};
+					DE8305DC1F26A9E70091F5DB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = QKMLS48255;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C572D551E08C79F00BCBD99;
 					};
 				};
 			};
@@ -132,7 +280,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4C572D551E08C79F00BCBD99 /* KeyboardAvoiding */,
+				4C572D551E08C79F00BCBD99 /* KeyboardAvoidingApp */,
+				DE8305D41F26A9E70091F5DB /* KeyboardAvoiding */,
+				DE8305DC1F26A9E70091F5DB /* KeyboardAvoidingFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -146,6 +296,20 @@
 				4C291DC41E08E01C00507A53 /* IHKeyboardAvoiding.podspec in Resources */,
 				4C572D611E08C79F00BCBD99 /* Assets.xcassets in Resources */,
 				4C572D5F1E08C79F00BCBD99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8305D31F26A9E70091F5DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8305DB1F26A9E70091F5DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +327,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE8305D01F26A9E70091F5DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8305D91F26A9E70091F5DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8305E51F26A9E70091F5DB /* KeyboardAvoidingFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE8305E01F26A9E70091F5DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE8305D41F26A9E70091F5DB /* KeyboardAvoiding */;
+			targetProxy = DE8305DF1F26A9E70091F5DB /* PBXContainerItemProxy */;
+		};
+		DE8305E21F26A9E70091F5DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C572D551E08C79F00BCBD99 /* KeyboardAvoidingApp */;
+			targetProxy = DE8305E11F26A9E70091F5DB /* PBXContainerItemProxy */;
+		};
+		DE8305E91F26A9E70091F5DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE8305D41F26A9E70091F5DB /* KeyboardAvoiding */;
+			targetProxy = DE8305E81F26A9E70091F5DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4C572D5D1E08C79F00BCBD99 /* Main.storyboard */ = {
@@ -287,6 +484,7 @@
 				INFOPLIST_FILE = KeyboardAvoiding/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = IHA.KeyboardAvoiding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -304,11 +502,96 @@
 				INFOPLIST_FILE = KeyboardAvoiding/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = IHA.KeyboardAvoiding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DE8305ED1F26A9E70091F5DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2E23KCX8SU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KeyboardAvoidingFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ticketsauce.KeyboardAvoidingFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE8305EE1F26A9E70091F5DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2E23KCX8SU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KeyboardAvoidingFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ticketsauce.KeyboardAvoidingFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE8305F11F26A9E70091F5DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = QKMLS48255;
+				INFOPLIST_FILE = KeyboardAvoidingFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ticketsauce.KeyboardAvoidingFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardAvoiding.app/KeyboardAvoiding";
+			};
+			name = Debug;
+		};
+		DE8305F21F26A9E70091F5DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = QKMLS48255;
+				INFOPLIST_FILE = KeyboardAvoidingFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ticketsauce.KeyboardAvoidingFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardAvoiding.app/KeyboardAvoiding";
 			};
 			name = Release;
 		};
@@ -324,7 +607,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C572D681E08C79F00BCBD99 /* Build configuration list for PBXNativeTarget "KeyboardAvoiding" */ = {
+		4C572D681E08C79F00BCBD99 /* Build configuration list for PBXNativeTarget "KeyboardAvoidingApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C572D691E08C79F00BCBD99 /* Debug */,
@@ -332,6 +615,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		DE8305EC1F26A9E70091F5DB /* Build configuration list for PBXNativeTarget "KeyboardAvoiding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8305ED1F26A9E70091F5DB /* Debug */,
+				DE8305EE1F26A9E70091F5DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE8305F01F26A9E70091F5DB /* Build configuration list for PBXNativeTarget "KeyboardAvoidingFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8305F11F26A9E70091F5DB /* Debug */,
+				DE8305F21F26A9E70091F5DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
